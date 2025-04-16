@@ -1,34 +1,65 @@
-# Portfolio Starter Kit
+# Rishit Desai
 
-This portfolio is built with **Next.js** and a library called [Nextra](https://nextra.vercel.app/). It allows you to write Markdown and focus on the _content_ of your portfolio. This starter includes:
+👋 Hello there! I'm Rishit, a Computer Engineering student passionate about building innovative and impactful software solutions. I'm based in Mumbai, India.
 
-- Automatically configured to handle Markdown/MDX
-- Generates an RSS feed based on your posts
-- A beautiful theme included out of the box
-- Easily categorize posts with tags
-- Fast, optimized web font loading
+I specialize in full-stack development and have a strong interest in exploring the potential of AI/ML to solve real-world problems.
 
-## Configuration
+## 🛠️ Tech Stack
 
-1. Update your name in `theme.config.js` or change the footer.
-1. Update your name and site URL for the RSS feed in `scripts/gen-rss.js`.
-1. Update the meta tags in `pages/_document.js`.
-1. Update the posts inside `pages/posts/*.md` with your own content.
+Here are some of the technologies I'm proficient in:
 
-## Deploy your own
+**Web Development:**
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+* HTML, CSS
+* React.js, Angular, Next.js
+* Node.js, Express.js
+* Firebase
+* MySQL, MongoDB, Sequelize.js
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/nextjs-portfolio-starter&project-name=portfolio&repository-name=portfolio)
+**AI/ML:**
 
-## How to use
+* Python
+* TensorFlow, Keras
+* Deep Learning, Natural Language Processing
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+**Other:**
 
-```bash
-npx create-next-app --example blog my-blog
-# or
-yarn create next-app --example blog my-blog
-```
+* Git/GitHub
+* Docker, AWS, GCP
+* Project Management (Agile, etc.)
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Projects
+
+Here are some of the projects I've worked on:
+
+* **Demand and Financial Management Tool**: A tool for logging, managing, and governing demands (Python, QuickBase, GitHub Actions).
+* **Minor Enhancements Dashboard**: A reporting tool with ML insights for managing minor enhancements (Python, QuickBase, GitHub Actions, Machine Learning).
+* **Machine Translation**: A tool to translate between several European languages and English (Python, TensorFlow, Deep Learning, NLP, Streamlit).
+* **Stock Price Anomaly Detection**: Detects anomalies in stock prices using Auto-Encoders (Python, TensorFlow, Deep Learning, Auto-Encoders, Streamlit).
+* **MSC Cruises Job Portal**: Job portal for MSC Cruises (Angular, Node.js, MySQL, Sequelize.js).
+* **Melo**: Music distribution platform with artist and admin dashboards (Angular, Node.js, MySQL, Sequelize.js, Firebase Authentication).
+* **Twitter Sentiment Analysis**: Real-time analysis of tweet sentiment (Python, TensorFlow, Flask, React.js).
+* **CryptoTax**: Website for a cryptocurrency tax company (React.js, Next.js, Firebase, AWS Lambda).
+
+## 💼 Experience
+
+* MDS DevOps Engineering Intern at Mondelez International (May 2024 - November 2024)
+* Full Stack Web Development Intern at Kenmark ITan Solutions (December 2022 - April 2023)
+* Technical Executive at WhatCode.in (December 2021 - May 2022)
+
+## 🎓 Education
+
+* B-Tech (Integrated) Computer Engineering at Mukesh Patel School of Technology Management & Engineering (2019-present)
+
+## 📣 Leadership & Extracurriculars
+
+* Web Development Lead, GDSC MPSTME (2023-24)
+* Sub-head at CodeChef MPSTME (2021-22)
+* Conducted a workshop with GDSC, MPSTME on DevOps with Docker and GCP
+
+## 🔗 Connect with Me
+
+* [LinkedIn Profile](https://www.linkedin.com/in/rishit-desai)
+* [Email](mailto:rishit321@gmail.com)
+
+Feel free to reach out if you have any questions or want to collaborate!
