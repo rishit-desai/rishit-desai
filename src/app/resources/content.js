@@ -85,6 +85,22 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
+        company: "IlegalAdvice",
+        timeframe: "June 2025 - Aug 2025",
+        role: "Artificial Intelligence Intern",
+        achievements: [
+          <>Built a modular multi-service legal-tech ecosystem (API, Drafter, Summarizer) with shared patterns.</>,
+          <>Implemented RAG with LangChain, pgvector, and text-embedding-005; added batched, concurrent ingestion.</>,
+          <>Delivered AI-assisted drafting using Vertex AI (Gemini) for section-wise, context-aware templates.</>,
+          <>Engineered Razorpay subscription lifecycle: create, verify, upgrade/extend, history, and webhooks.</>,
+          <>Hardened security: token auth, role-based admin routes, strict CORS, input sanitization, and secret normalization.</>,
+          <>Increased reliability with defensive LLM error handling, retries/backoff, and structured logs.</>,
+          <>Set up PostgreSQL schema and pooling plus vector store tables for semantic retrieval.</>,
+          <>Integrated Cloudinary + Multer for secure media uploads and handling.</>,
+          <>Improved DX with TypeScript-first Express services, shared middleware, and request validation.</>,
+        ],
+      },
+      {
         company: "Mondelēz International",
         timeframe: "May 2024 - Nov 2024",
         role: "MDS DevOps Engineering Intern",
