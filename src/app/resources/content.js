@@ -99,6 +99,7 @@ const about = {
           <>Integrated Cloudinary + Multer for secure media uploads and handling.</>,
           <>Improved DX with TypeScript-first Express services, shared middleware, and request validation.</>,
         ],
+        images: []
       },
       {
         company: "Mondelēz International",
