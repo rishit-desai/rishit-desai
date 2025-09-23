@@ -1,0 +1,66 @@
+---
+title: "iLegalAdvice"
+publishedAt: "2025"
+summary: "Multi-service, AI-driven legal-tech platform for drafting, summarization, and subscriptions."
+team:
+  - name: "Rishit Desai"
+    role: "Developer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/rishit-desai"
+---
+
+## Overview
+
+The iLegalAdvice Ecosystem is a modular, AI-driven legal-tech platform that streamlines document drafting, summarization, and subscription-based access. It is composed of independently deployable services with shared standards for security, reliability, and developer experience.
+
+## Core Services
+
+-   **API Service **: Manages user profiles, authentication, testimonials, plan governance, and Razorpay subscription lifecycle (create, verify, upgrade, extend, history, webhooks).
+-   **Drafter Service **: AI-assisted drafting with prompt-to-template generation; template CRUD, variables/questions mapping, section composition, and published/draft states per document type.
+-   **Summarizer Service **: Chat/summarization with chat-history CRUD, streaming endpoints, and multi-file ingestion for RAG-enabled summarization.
+
+## AI & Retrieval
+
+-   **Generation**: Google Vertex AI (Gemini) for section-wise, context-aware drafting tuned for legal tone and additive edits.
+-   **Embeddings/RAG**: `text-embedding-005` + `pgvector` via LangChain; similarity search over outlines; chunking with recursive text splitter; concurrent, batched ingestion for throughput.
+
+## Data & Storage
+
+-   **Primary DB**: PostgreSQL with pg-pool; vector store tables for semantic retrieval.
+-   **Media**: Cloudinary for secure asset handling; Multer for memory/disk-backed uploads.
+
+## Security & Access
+
+-   **AuthN/AuthZ**: Token-based authentication; role-based admin routes; CORS policies; sanitized inputs and header whitelisting.
+-   **Secrets**: Environment-based configuration; normalized private keys for Google credentials.
+
+## Payments & Monetization
+
+-   **Razorpay**: Subscriptions with verification, upgrades/extensions, charge webhooks, and history endpoints to support tiered access and lifecycle visibility.
+
+## Reliability & Ops
+
+-   **Resilience**: Defensive error handling around LLM calls; retries/backoff; concurrent batching with timing/metrics logs.
+-   **Observability**: Structured logging across services; uniform error envelopes; consistent status codes.
+-   **Portability**: Config-first bootstrapping; service isolation enables independent scaling and deployment.
+
+## Developer Experience
+
+-   **Stack**: TypeScript-first Express services with shared middleware patterns, request validation, and file pipelines.
+-   **Separation of Concerns**: API (accounts/billing), Drafter (generation/templates), Summarizer (chat/files/RAG).
+
+## Technologies Used
+
+-   TypeScript / Node.js (Express)
+-   PostgreSQL, pgvector
+-   LangChain, Vertex AI (Gemini)
+-   Cloudinary, Multer
+-   Razorpay, CORS/JWT-style auth
+
+## Challenges and Learnings
+
+Designing for reliability across LLM workflows required resilient error handling, retriable pipelines, and consistent contract shapes between services. Establishing a clean separation of concerns with shared tooling improved velocity while keeping each service independently scalable.
+
+## Outcome
+
+The ecosystem accelerates legal document creation with AI-assisted drafting, reduces manual effort via reusable templates and variable mapping, and supports monetization through robust subscription flows. Vector-backed retrieval enhances discoverability and reuse across documents, delivering faster, more consistent results for end users.
